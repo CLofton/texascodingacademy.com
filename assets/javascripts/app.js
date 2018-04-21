@@ -47,7 +47,7 @@ $(function() {
           <br/>
           ${moment.utc(dates['Austin']).format('ddd, MMM Do, YYYY')}
           <br/>
-          <small>North / <a href="/remote">Remote</a></small>
+          <small>North</small>
           <br />
           ${moment.utc(dates['North Austin']).format('ddd, MMM Do, YYYY')}
         `);
@@ -89,6 +89,11 @@ $(function() {
         $('#upcoming-events').html($upcomingEvents);
       }
     });
+  }
+
+  if ($('#scrollspy').length) {
+    $('body').scrollspy({ target: '#scrollspy' });
+    $('.nav-wrapper').height($('[data-spy="affix"]').height());
   }
 });
 
