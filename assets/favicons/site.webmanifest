@@ -1,15 +1,10 @@
 {
-    "name": "Austin Coding Academy",
-    "short_name": "Austin Coding Academy",
+    "name": "Texas Coding Academy",
+    "short_name": "Texas Coding Academy",
     "icons": [
         {
-            "src": "/assets/favicons/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/favicons/android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "/assets/favicons/android-chrome-96x96.png",
+            "sizes": "96x96",
             "type": "image/png"
         }
     ],
